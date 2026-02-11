@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pradhyum Rajasekar</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+</head>
+<body class="dark-mode">
+    <button class="theme-toggle" id="themeToggle">light</button>
+    <div class="container">
+        <!-- Left Sidebar -->
+        <aside class="sidebar">
+            <div class="photo-container">
+                <img src="me.jpg" alt="Photo of me!" class="profile-photo">
+                <div class="photo-credit">Photo by Myles Coven</div>
+            </div>
+            <h1 class="name">Pradhyum Rajasekar</h1>
+            <p class="tagline">Student at Cornell University</p>
+            <nav class="links">
+                <a href="https://www.linkedin.com/in/pradhyum-r-4457951b0/" class="link" target="_blank">linkedin</a>
+                <a href="https://github.com/techieji" class="link" target="_blank">github</a>
+            </nav>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="content">
+            <!-- Content will be injected here by Python script -->
+            {{CONTENT}}
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
